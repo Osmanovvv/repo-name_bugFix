@@ -1,0 +1,556 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+* {
+    font-family: 'RefiDeni',Arial,sans-serif;
+    }
+body{
+    background-color: #022126;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1400px;
+}
+.header-section-travel-inner{
+    margin-top: -20px;
+    margin-left: -8px;
+    margin-right: -8px;
+    height: 780px;
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5) ), url('../assets/gif/Crimea2.gif');
+}
+.header-inner{
+    display: flex; 
+    align-items: center;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.header__search{
+    margin-left: 140px;
+    width: 200px;
+    font-weight: 400;
+    height: 30px;
+    border-radius: 6px;
+    font-size: 13px;
+    cursor: pointer;
+    border: 0;
+    padding: 0 20px;
+    outline: none;
+}
+.header__title{
+    font-family: 'Courgette', cursive;
+    font-size: 50px;
+    color: white;
+    text-decoration: none;
+}
+.header__title:hover{
+    transform: scale(1.2);
+    transition-duration: 1.5s;
+}
+.nav-links{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+.nav-link__item{
+    text-decoration: none;
+    cursor: pointer;
+    line-height: 2;
+    color: white;
+    font-size: 16px;
+    position: relative;
+}
+.nav-link__item:hover{
+    color: #c6a284;
+}
+.link-inner{
+    padding-right: 30px;
+    align-items: center;
+}
+.nav-link__item::before{
+	content: '';
+	position: absolute;
+	left: 0;
+    right: 0;
+    bottom: -5px;
+	width: 0;
+	height: 1px;
+	background-color: #c6a284;
+    border: 0;
+    transition: width 0.35s;
+}
+.nav-link__item:hover:before{
+	width: 100%;
+}
+.nav-link-lng__item{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.header-lng-eng__item{
+    color: #c6a284;
+}
+.header-lng-ru__item:hover{
+    color: #c6a284;
+}
+.section-travel{
+    color: #e2e1e1;
+    overflow: hidden;
+    height: 700px;
+    background-image: url("../assets/gif/Crimea2.gi");
+    background-repeat: no-repeat;
+    background-position: center -90px;
+}
+.section-name-inner{
+    margin-top: -120px;
+}
+.section-travel__title-inner{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.section-travel__title{
+    color: white;
+    font-size: 110px;
+    font-weight: 400;
+    letter-spacing: 15px;
+}
+.section-travel__title-small{
+    color: white;
+    font-size: 30px;
+    font-weight: 300;
+    letter-spacing: 10px;
+}
+.section__text-gold{
+    color: #c6a284;
+}
+.section-travel__text-inner{
+    text-align: center;
+    margin-top: -90px;
+}
+.section-travel__search{
+    margin-left: 530px;
+    margin-top: 15px;
+    width: 300px;
+    font-weight: 400;
+    height: 40px;
+    border-radius: 6px;
+    font-size: 13px;
+    cursor: pointer;
+    border: 0;
+    padding: 0 20px;
+    outline: none;
+}
+.section-travel__cities-inner{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    text-align: center;
+}
+.section-travel__simferopol{
+    height: 300p;
+    background-image: url("../assets/image/simferopol/simferopol.jp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 4px;
+}
+.simferopol-section{
+    background-color: white;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: -10px;
+}
+.simferopol-section-inner{
+    max-width: 1000px;
+    margin-left: 18%;
+}
+.simferopol-section__simf-inner{
+    display: flex;
+    align-items: center;
+}
+.simferopol-section__simf__title{
+    color: black;
+    font-size: 48px;
+    font-weight: 600;
+}
+.simferopol-section__simf__text-inner{
+    padding-left: 50px;
+}
+.simferopol-section__simf__text{
+    font-size: 18px;
+    font-family: 'Circe',Arial,sans-serif;
+    font-weight: 400;
+    margin-left: 180px;
+}
+.simferopol-section__links-inner{
+    padding-top: 30px;
+}
+.simferopol-section__link{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    cursor: pointer;
+    line-height: 2;
+    position: relative;
+}
+.simferopol-section__link:hover{
+    color: #c6a284;
+}
+.simferopol-section__link::before{
+	content: '';
+	position: absolute;
+	left: 0;
+    top: 14px;
+    bottom: -5px;
+	width: 0;
+	height: 1px;
+	background-color: #c6a284;
+    border: 0;
+    transition: width 0.35s;
+}
+.simferopol-section__link:hover:before{
+	width: 100%;
+}
+.simferopol-section__images-inner{
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 8px;
+}
+.simferopol-section__image{
+    height: 300px;
+    width: 459px;
+    border-radius: 8px;
+    margin-right: 20px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px #444;
+}
+.simferopol-section__image5-inner{
+    padding-left: 25%;
+    padding-bottom: 20px;
+}
+.section-travel__yalta{
+    background-image: url("../assets/image/simferopol/yalta.jp");
+    background-size: cover;
+    border-radius: 4px;
+    background-position: center top;
+    width: 197px
+}
+.section-travel__alushta{
+    background-image: url("../assets/image/simferopol/alushta.jp");
+    background-size: cover;
+    border-radius: 4px;
+    background-position: center top;
+    width: 197px
+}
+.section-travel__sevastopol{
+    background-image: url("../assets/image/simferopol/sevastopol.jp");
+    background-size: cover;
+    border-radius: 4px;
+    background-position: center top;
+    width: 197px
+}
+.section-travel__bakhchisarai{
+    background-image: url("../assets/image/simferopol/bakhchisarai.jp");
+    background-size: cover;
+    border-radius: 4px;
+    background-position: center top;
+    border: 0;
+    width: 197px
+}
+.section-travel__link{
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    font-size: 20px;
+    align-items: center;
+    cursor: pointer;
+    line-height: 2;
+    position: relative;
+}
+.section-travel__link:hover{
+    color: #c6a284;
+}
+.section-travel__link::before{
+	content: '';
+	position: absolute;
+	left: 0;
+    right: 0;
+    bottom: -5px;
+	width: 0;
+	height: 1px;
+	background-color: #c6a284;
+    border: 0;
+    transition: width 0.35s;
+}
+.section-travel__link:hover:before{
+	width: 100%;
+}
+
+
+.section-contacts{
+    background-image: url("../assets/image/map1.png");
+    background-size: cover;
+    background-position: center right;
+    width: 100%;
+    margin-top: -80px;
+    padding-right: 16px;
+    margin-left: -8px;
+}
+.section-contacts-inner{
+    width: 500px;
+    margin-left: 350px;
+    background-color: #e8e8e8;
+    border-radius: 8px;
+}
+.section-contacts__title{
+    color: black;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 60px;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.section-contacts-information-inner{
+    margin-top: -20px;
+}
+.section-contacts-information__title{
+    margin-left: 20px;
+    color: #a2a2a2;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase; 
+}
+.section-contacts-information__email{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: -22px;
+    color: #c6a284;
+    font-size: 16px;
+    font-weight: 600;
+}
+.section-contacts-information__text{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: -22px;
+    color: #c6a284;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.section-contacts-information__address{
+    margin-left: 20px;
+    margin-top: -20px;
+    color: #c6a284;
+    font-size: 18px;
+    font-weight: 600;
+}
+.section-contacts-information__weekday-inner{
+    color: #c6a284;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+.section-contacts-information__weekday{
+    margin-left: 20px;
+    margin-top: -20px;
+    margin-right: 20px;
+    color: #c6a284;
+    font-size: 18px;
+    font-weight: 600;
+}
+.section-contacts-information__weekends-inner{
+    color: #c6a284;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+.section-contacts-information__weekends{
+    margin-left: 20px;
+    margin-top: -20px;
+    margin-right: 20px;
+    color: #c6a284;
+    font-size: 18px;
+    font-weight: 600;
+}
+.section-contacts-information__social-title{
+    margin-left: 20px;
+    margin-top: -5px;
+    color: #a2a2a2;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.section-contacts-information-social{
+    margin-left: 20px;
+    margin-bottom: 50px;
+    margin-top: -10px;
+}
+.seсtion-contacts-information__icon-vk{
+    height: 44px;
+    width: 44px;
+}
+.seсtion-contacts-information__icon-inst{
+    height: 40px;
+    width: 40px;
+    margin-bottom: 2px;
+}
+.section-question-inner{
+    margin-top: 50px;
+    margin-left: 150px;
+}
+.section-question__title{
+    text-transform: uppercase;
+    color: white;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    font-size: 28px;
+    font-weight: 500
+}
+.section-question-form__text{
+    background-color: white;
+    border: 0;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    height: 64px;
+    border-style: none;
+    padding: 0 20px;
+    outline: none;
+}
+.section-question-form__button{
+    color: white;
+    background-color: #c6a284;
+    width: 320px;
+    font-weight: 600;
+    height: 64px;
+    border-radius: 8px;
+    font-size: 13px;
+    cursor: pointer;
+    border: 0;
+    text-transform: uppercase;
+}
+.section-question-form{
+    display: flex;
+}
+.section-question-form-inner{
+    padding-left: 25px;
+}
+.section-contacts__text{
+    color: white;
+    font-size: 12px;
+    font-family: 'RefiDeni',Arial,sans-serif;
+    line-height: 1.55;
+    font-weight: 400;
+    opacity: 0.45;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    margin-left: 25px;
+}
+.u{
+    text-decoration: underline;
+}
+hr{
+    color: white;
+}
+.section-kinds{
+    margin-left: -8px;
+    margin-right: -8px;
+}
+.section-kinds-inner{
+    margin-top: 60px;
+}
+.section-kinds__title{
+    color: white;
+    text-align: center;
+    margin-bottom: 70px;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.section-kinds__video{
+    width: 1000px;
+    height: 1000px;
+    margin-left: 370px;
+    margin-top: 70px;
+    margin-bottom: -500px;
+}
+.footer-inner{
+    display: flex;
+    margin-top: 100px;
+    align-items: center;
+    margin-left: 250px;
+}
+.footer-inner-information{
+    display: flex;
+    padding-left: 50px;
+    margin-top: 50px;
+}
+.footer-information-inner{
+    display: flex;
+}
+.information-inner{
+    padding-left: 50px;
+}
+.footer__title{
+    color: white;
+    font-weight: 400;
+    font-size: 35px;
+    margin-top: 40px;
+}
+.footer-information__title{
+    color: #909090;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.footer-information__link{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: white;
+    padding-bottom: 50px;
+
+    cursor: pointer;
+    line-height: 2;
+    color: white;
+    position: relative;
+}
+.footer-information__link:hover{
+    color: #c6a284;
+}
+.footer-information__text{
+    color: white;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.footer-social-inner{
+    display: flex;
+}
+.footer-entitlement-inner{
+    margin-top: 180px;
+}
+.footer-entitlement__text{
+    color: #909090;
+}
+.footer-information__link{
+    margin-bottom: 15px;
+}
+.footer-information__link::before{
+	content: '';
+	position: absolute;
+	left: 0;
+    right: 0;
+    bottom: 2px;
+	width: 0;
+	height: 1px;
+	background-color: #c6a284;
+    border: 0;
+    transition: width 0.35s;
+    top: 19px;
+}
+.footer-information__link:hover:before{
+	width: 100%;
+}
